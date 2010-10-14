@@ -1,0 +1,158 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background:#ededed;
+	font-family: "myriad pro", "lucida sans", "trebuchet ms", helvetica, sans-serif;
+	font-size:62.5%;
+	border-top:3px solid #611F3B;
+	color: #545454;
+}
+
+a{
+	color:#307487;
+	text-decoration:none;
+}
+
+a:hover{
+	color: #67BAC2;
+}
+
+p{
+	font-size:2.2em;
+margin:0 0 15px 0;
+}
+
+img{border:0px;}
+#container{
+	margin:0 auto;
+	width:850px;
+}
+
+#main{
+	margin-top:-3px;
+	padding:30px 10px 15px 10px;
+	border-top:1px dotted #141414;
+	border-bottom:1px dotted #141414;
+	overflow:hidden;
+	/*-webkit-box-shadow: 0px 5px 15px #bd2e53;  
+	-moz-box-shadow: 0px 5px 15px #bd2e53;  
+	box-shadow: 0px 5px 15px #bd2e53;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px; */
+}
+
+#title{
+	margin-top:50px;
+}
+
+#indextext p{
+	font-size:3.2em;
+}
+
+#photo{
+	text-align:center;
+	margin: 30px 0 20px 0;
+	width:520px;
+}
+
+#footer{
+	text-align:right;
+	width:100%;
+	padding-top:3px;
+	font-size:1.3em;
+	padding-bottom:20px;
+}
+
+#tags{
+	width:200px;
+	background:#dfdfdf;
+	float:right;
+	padding:20px 15px;
+	margin:0px 0;
+}
+
+#tags li{
+	list-style-type:none;
+	font-size:1.5em;
+	margin-bottom:10px;
+}
+
+#existingTags{
+	padding:10px;
+	width:500px;
+	background:#e8e8e8;
+	min-height:120px;
+	font-size:1.2em;
+	line-height:1.5em;
+}
+
+p.moreinfo{
+	margin-top:-20px;
+	font-size:1.6em;
+	font-style:italic;
+}
+
+#indextext p.moreinfo{
+	margin-top:-20px;
+	font-size:1.6em;
+	font-style:italic;
+}
+
+h3{
+	font-size:2.5em;
+	color:#611F3B;
+}
+
+h4{
+	font-size:1.8em;
+	color:#611F3B;
+	margin-bottom:5px;
+}
+
+#tags input{
+	margin-right: 8px;
+}
+
+.tagbutton {
+	display:block;
+	padding:4px 18px 4px 12px;
+	background: #c0c0c0;
+	border:1px solid #808080;
+	font-size:1.8em;
+	color:#611F3B;
+	line-height:1.0em;
+}
+
+.tagbutton img{
+	margin-right:8px;
+	margin-top:1px;
+	float:left;
+}
+
+button:hover{
+	background:#7BB89C;
+	color:#611F3B;
+}
+
+.nickname{
+	width:250px;
+	height:35px;
+	margin-top:-5px;
+	border:1px solid #c0c0c0;
+	font-size:.8em;
+}
+
+.nicknamebutton{
+	font-size:1.0em;
+	border: 0;
+	background:none;
+	color:#307487;
+}
+
+.nicknamebutton:hover{
+	background:none;
+	color:#67BAC2;
+}
