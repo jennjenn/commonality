@@ -1,9 +1,6 @@
 <?php
+//pull in all the top secret stuff like db connecting and flickr API secrets
 require_once('connect.php');
-
-$apiKey = "48792291a85b6bb9c45c7ba86372e720";
-$apiSecret ="e519a126d6de492a";
-
 
 // Create new phpFlickr object
 $f = new phpFlickr($apiKey,$apiSecret);
